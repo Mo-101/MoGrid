@@ -1,0 +1,21 @@
+swagger: '2.0'
+info:
+  title: MoStar Sovereign Grid API
+  description: The covenant-bound interface to the MoStar Grid.
+  version: '1.0.0'
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /execute:
+    post:
+      summary: "Execute an intent through the Trinity Gates"
+      operationId: "execute"
+      x-google-backend:
+        address: "" # This will be populated by Terraform during deployment
+      responses:
+        '200':
+          description: "Intent processed and verdict returned"
+          schema:
+            type: object
