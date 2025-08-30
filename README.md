@@ -1,2 +1,0 @@
-# MoGrid
-mostar industries

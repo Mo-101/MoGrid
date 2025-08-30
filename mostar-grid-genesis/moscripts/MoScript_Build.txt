@@ -1,4 +1,0 @@
-MoScript Compilation & Sealing Protocol v1.0
-1. Validate all scripts in /moscripts against the MoStarCodex.schema.json.
-2. If valid, sign the script with the Overlord's private key.
-3. Package the signed scripts into a secure artifact for deployment.
